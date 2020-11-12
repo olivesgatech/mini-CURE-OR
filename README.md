@@ -6,7 +6,7 @@
 <p align="center"><img src="./figs/cure_or_lr.gif", width="500"></p>
 
 
-This repository contains the description and the link to a subsampled version of the original CURE-OR dataset. The goal of this project is to analyze the robustness of off-the-shelf recognition applications under multifarious challenging conditions, investigate the relationship between the recognition performance and image quality, and estimate the performance based on hand-crafted features as well as data-driven features. To achieve this goal, we introduced a large-scale, controlled, and multi-platform object recognition dataset CURE-OR, which stands for Challenging Unreal and Real Environments for Object Recognition.  This repository summrizes the characterisitcs of our dataset and provides codes to reproduce analysis results in our papers. For more information about CURE-OR, please refer to our papers.
+This repository contains the description and the link to a subsampled version of the original CURE-OR dataset. The goal of this project is to analyze the robustness of off-the-shelf recognition applications under multifarious challenging conditions, investigate the relationship between the recognition performance and image quality, and estimate the performance based on hand-crafted features as well as data-driven features. To achieve this goal, we introduced a large-scale, controlled, and multi-platform object recognition dataset CURE-OR, which stands for Challenging Unreal and Real Environments for Object Recognition. For more information about CURE-OR, please refer to our papers.
 
 ### Papers
 If you use CURE-OR dataset and/or these codes, please cite:
