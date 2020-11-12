@@ -1,4 +1,4 @@
-# CURE-OR-Sampled
+# mini-CURE-OR
 
  [OLIVES Lab, Georgia Institute of Technology](https://ghassanalregib.info/)
 
