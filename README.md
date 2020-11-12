@@ -32,7 +32,7 @@ year        = {2019},}
 ```
  
 ### Download Dataset
-In the original CURE-OR dataset, there are 1,000,000 images of 100 objects with varying size, color, and texture, captured with multiple devices in different setups. In the sampled version, there are a total of 16,500 images in train and test sets over 10 classes, all challenge types and levels 1-4, all 5 perspectives at all 5 backgrounds from a single device The majority of images in the CURE-OR dataset were acquired with smartphones and tested with off-the-shelf applications to benchmark the recognition performance of devices and applications that are used in our daily lives. To download the dataset, please head over to the following [link]().
+In the original CURE-OR dataset, there are 1,000,000 images of 100 objects with varying size, color, and texture, captured with multiple devices in different setups. In the sampled version, there are a total of 16,500 images in train and test sets over 10 classes, all challenge types and levels 1-4, all 5 perspectives at all 5 backgrounds from a single device The majority of images in the CURE-OR dataset were acquired with smartphones and tested with off-the-shelf applications to benchmark the recognition performance of devices and applications that are used in our daily lives. To download the dataset, please head over to the following [link](https://zenodo.org/record/4268901#.X61drmhKhPY).
  
 ### File Descriptions
 * train.zip - the training set
@@ -140,3 +140,5 @@ Python Imaging Library (PIL) version 4.2.1 and scikit-image version 0.13.0 are 
 	<li>Salt & pepper noise: replaces random pixels of an image with either one or zero, with amount between 0.2 and 0.9</li>
 	<li>Grayscale: convert an image into monochrome</li>
 </ul>
+
+To access the complete dataset and associated files, please refer to [link](https://github.com/olivesgatech/CURE-OR).
