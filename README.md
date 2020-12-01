@@ -32,53 +32,22 @@ year        = {2019},}
 ```
  
 ### Download Dataset
-In the original CURE-OR dataset, there are 1,000,000 images of 100 objects with varying size, color, and texture, captured with multiple devices in different setups. In the sampled version, there are a total of 16,500 images in train and test sets over 10 classes, all challenge types and levels 1-4, all 5 perspectives at all 5 backgrounds from a single device The majority of images in the CURE-OR dataset were acquired with smartphones and tested with off-the-shelf applications to benchmark the recognition performance of devices and applications that are used in our daily lives. To download the dataset, please head over to the following [link](https://zenodo.org/record/4268901#.X61drmhKhPY).
+In the original CURE-OR dataset, there are 1,000,000 images of 100 objects with varying size, color, and texture, captured with multiple devices in different setups. In the sampled version, there are a total of 16,500 images in train and test sets distributed over ten classes. For each class, there exists training image samples for three backgrounds, five camera angles, 18 different challenge types, and 5 levels of challenge. To download the dataset, please head over to the following [link](https://zenodo.org/record/4268901#.X61drmhKhPY).
  
 ### File Descriptions
 * train.zip - the training set
 * test.zip - the test set
 * train.csv - the ground truth for the training images with the following information: imageID, class, background, perspective, challengeType, challengeLevel
-* sample_submission.csv - a sample submission file in the correct format with column headers of imageID and class
+* test.csv -  the ground truth for the training images with the following information: imageID, class, background, perspective, challengeType, challengeLevel
 
 
-### Challenging Conditions
-<p align="center"><img src="./figs/cureor_challenges.JPG", width="800"></p>
-
-
-### Objects 
-<p align="center"><img src="./figs/cureor_objects.png", width="800"></p>
-
-### Backgrounds
-5 Backgrounds: White, 2D Living room, 2D Kitchen, 3D Living room, 3D Office
-<p align="center"><img src="./figs/cureor_backgrounds.png", width="600"></p>
-
-### Devices
-5 Devices: iPhone 6s, HTC One X, LG Leon, Logitech C920 HD Pro Webcam, Nikon D80
-<p align="center"><img src="./figs/cureor_devices.png", width="600"></p>
-
-### Orientations
-5 Object orientations: Front, Left, Back, Right, Top
-<p align="center"><img src="./figs/cureor_object_orientations.png", width="600"></p>
-
-### File Name Format
-
-"<b>background</b><b>ID</b><b>_device</b><b>ID</b><b>_objectOrientation</b><b>ID</b><b>_objectID_challengeType_challengeLevel.jpg</b>"
 
 <b>background</b><b>ID</b><b>:</b>
 
 1. White
 2. Texture 1 - living room
 3. Texture 2 - kitchen
-4. 3D 1 - living room
-5. 3D 2 - office
 
-<b>device</b><b>ID</b><b>:</b>
-
-1. iPhone 6s
-2. HTC One X
-3. LG Leon
-4. Logitech C920 HD Pro Webcam
-5. Nikon D80
 
 <b>objectOrientation</b><b>ID</b><b>:</b>
 
@@ -124,7 +93,7 @@ In the original CURE-OR dataset, there are 1,000,000 images of 100 objects with 
 
 <b>Challenge Level</b><b>:</b>
 
-A number between [0, 5], where 0 indicates no challenge, 1 the least severe and 5 the most severe challenge. Challenge type 1 (no challenge) and 10 (grayscale) has a level of 0 only. Challenge types 2 (resize) and 11 (grayscale resize) has 4 levels (1 through 4). All other challenges have levels 1 to 5.
+A number between [, 5], where 0 indicates no challenge, 1 the least severe and 5 the most severe challenge. Challenge type 1 (no challenge) and 10 (grayscale) has a level of 0 only. Challenge types 2 (resize) and 11 (grayscale resize) has 4 levels (1 through 4). All other challenges have levels 1 to 5.
 <h3></h3>
 
 ### Challenging Conditions Generation
