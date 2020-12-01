@@ -93,7 +93,7 @@ In the original CURE-OR dataset, there are 1,000,000 images of 100 objects with 
 
 <b>Challenge Level</b><b>:</b>
 
-A number between [0, 5], where 0 indicates no challenge, 1 the least severe and 5 the most severe challenge. Challenge type 1 (no challenge) and 10 (grayscale) has a level of 0 only. Challenge types 2 (resize) and 11 (grayscale resize) has 4 levels (1 through 4). All other challenges have levels 1 to 5.
+A number between 0 and 5, where 0 indicates no challenge, 1 the least severe and 5 the most severe challenge. Challenge type 1 (no challenge) and 10 (grayscale) has a level of 0 only. Challenge types 2 (resize) and 11 (grayscale resize) has 4 levels (1 through 4). All other challenges have levels 1 to 5.
 <h3></h3>
 
 ### Challenging Conditions Generation
