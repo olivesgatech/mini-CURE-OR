@@ -32,7 +32,7 @@ year        = {2019},}
 ```
  
 ### Download Dataset
-In the original CURE-OR dataset, there are 1,000,000 images of 100 objects with varying size, color, and texture, captured with multiple devices in different setups. In the sampled version, there are a total of 16,500 images in train and test sets distributed over ten classes. For each class, there exists training image samples for three backgrounds, five camera angles, 18 different challenge types, and 5 levels of challenge. To download the dataset, please head over to the following [link](https://zenodo.org/record/4268901#.X61drmhKhPY).
+In the original CURE-OR dataset, there are 1,000,000 images of 100 objects with varying size, color, and texture, captured with multiple devices in different setups. In the sampled version, there are a total of 16,500 images in train and test sets distributed over ten classes. For each class, there exists training image samples for three backgrounds, five camera angles, 18 different challenge types, and 5 levels of challenge. To download the dataset, please head over to the following [link](https://zenodo.org/record/4299330).
  
 ### File Descriptions
 * train.zip - the training set
